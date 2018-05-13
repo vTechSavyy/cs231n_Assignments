@@ -1,0 +1,11 @@
+#!/home/savio/Documents/Machine_Learning/Theory/CS_294_Deep_Reinforcement_Learning/Pre-Req/Andrej_Karpathy_Course/Assignments/.env/bin/python3
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from setuptools.command.easy_install import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
